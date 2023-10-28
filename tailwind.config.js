@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/pages/**/*.{html,js}", "index.html"],
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        center: true,
+        padding: "16px",
+      },
+    },
   },
   plugins: [],
 };
