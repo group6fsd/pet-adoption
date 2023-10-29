@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Adoption</title>
+    <link rel="stylesheet" href="/src/css/output.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/6e31ec7c18.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="w-full h-full relative bg-white">
+      <div
+        class="left-[42px] top-0 absolute text-black text-[20px] font-[600] break-words"
+        style="font-family: Poppins"
+      >
+        pet adoption
+      </div>
+      <div
+        class="grid grid-cols-1 lg:grid-cols-2 justify-items-center pt-32 gap-12"
+      >
+        <div
+          class="w-[630px] h-[665px] left-[108ox] top-[285px] text-center"
+          style="font-family: Poppins"
+        >
+          <div
+            class="bg-no-repeat bg-center w-full h-full md:bg-right"
+            style="background-image: url(/src/images/Saly-14.png)"
+          >
+            <h2 class="text-black font-semibold text-[50px] leading-[75px]">
+              Sign In to
+            </h2>
+            <h3 class="text-black font-med ium text-[35px] leading-[52px]">
+              pet adoption
+            </h3>
+            <p class="text-black font-normal text-[16px] leading-[24px]">
+              If you don't have an account register you can
+            </p>
+            <a href="/src/pages/RegisterPage.html"
+              ><p
+                class="text-[#4D47C3] font-semibold text-[16px] leading-[24px]"
+              >
+                Register here !
+              </p></a
+            >
+          </div>
+        </div>
+        <div
+          class="w-[400px] h-[240px] left-0 top-0"
+          style="font-family: Poppins"
+        >
+          <h2 class="text-[30px] font-medium leading-[45px] pb-12">Sign In</h2>
+          <form action="">
+            <input
+              type="text"
+              name="user"
+              id="user"
+              placeholder="Enter email or username"
+              class="w-full bg-slate-200 p-3 rounded-lg focus:outline-none focus:ring-orange-500 focus:ring-1 focus:border-orange-500 px-4 mb-8"
+            />
+
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              class="w-full bg-slate-200 p-3 rounded-lg focus:outline-none focus:ring-orange-500 focus:ring-1 focus:border-orange-500 px-4 mb-2"
+            />
+            <p
+              class="text-gray-400 text-right font-normal text-[13px] leading-[19px] pb-8"
+            >
+              Forgot Password ?
+            </p>
+
+            <button
+              class="w-full bg-cyan-600 text-white font-medium text-[16px] leading-[24px] py-3 px-8 rounded-[9px] hover:opacity-80 hover:shadow-lg transition duration-500"
+            >
+              Login
+            </button>
+            <p
+              class="text-gray-400 text-center font-normal text-[13px] leading-[19px] pt-8"
+            >
+              Or continue with
+            </p>
+            <div class="flex justify-center pt-2">
+              <a href=""
+                ><img class="object-center" src="/src/images/google.svg" alt=""
+              /></a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="/src/js/main.js"></script>
+  </body>
+</html>
